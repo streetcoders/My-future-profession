@@ -31,13 +31,13 @@ namespace WebApplication1.Models
         public string Name { get; set; }
 
         [Required]
-        [StringLength(50, MinimumLength = 7, ErrorMessage = "New passwords must be a minimum of 7 characters, please try a different password.")]
+        [StringLength(50, MinimumLength = 6, ErrorMessage = "Password should contain at least 6 symbols.")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
-        [StringLength(50, MinimumLength = 6, ErrorMessage = "Password should contain at least 6 symbols.")]
+        
         [Compare("Password", ErrorMessage = "Пароли не совпадают")]
         public string ConfirmPassword { get; set; }
 
@@ -49,5 +49,15 @@ namespace WebApplication1.Models
         public string ImageId { get; set; }
 
 
+    }
+    public class FeedbackModel
+    {
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        public string Email { get; set; }
+
+        [Required]
+        [DataType(DataType.MultilineText)]
+        public string Message { get; set; }
     }
 }

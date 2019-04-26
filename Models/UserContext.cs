@@ -7,7 +7,7 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
+using System.Text;
 
 namespace WebApplication1.Models
 {
@@ -33,6 +33,14 @@ namespace WebApplication1.Models
             // получаем доступ к файловому хранилищу
             gridFS = new GridFSBucket(database);
         }
+        public async Task<string> Encrypt(string _login, string _password)
+        {
+            byte[] login = Encoding.Unicode.GetBytes(_login);
+            byte[] password = Encoding.Unicode.GetBytes(_password);
+            for (int i = 0; i < password.Length; i++)
+                password[i] = (byte)(password[i] ^ login[i % login.Length]);
+            return Encoding.Unicode.GetString(password);
+        }
         // обращаемся к коллекции Phones
         public IMongoCollection<User> Users
         {
@@ -43,7 +51,12 @@ namespace WebApplication1.Models
         {
            
             List<User> results = null;
-            results = Users.Find(x => x.Email == email && x.Password == pass).ToList();
+            var filter = new BsonDocument("$and", new BsonArray{
+
+             new BsonDocument("Email",new BsonDocument("$eq", email)),
+             new BsonDocument("Password", pass)
+            });
+            results = await Users.Find<User>(filter).ToListAsync();
             if (results != null)
                 return results.FirstOrDefault();
             else return null;
@@ -58,7 +71,8 @@ namespace WebApplication1.Models
         {
 
             List<User> results = null;
-            results=Users.Find(x => x.Email == email).ToList();
+            var filter = new BsonDocument("Email", new BsonDocument("$eq", email));
+            results = await Users.Find<User>(filter).ToListAsync();
             if (results != null)
                 return results.FirstOrDefault();
             else return null;
@@ -100,5 +114,10 @@ namespace WebApplication1.Models
             var update = Builders<User>.Update.Set("ImageId", c.ImageId);
             await Users.UpdateOneAsync(filter, update);
         }
+
+
+       
     }
+
+
 }

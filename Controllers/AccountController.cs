@@ -27,8 +27,9 @@ namespace WebApplication1.Controllers
             {
                 // поиск пользователя в бд
                 User user = null;
-                user = await db.GetUsersAsync(model.Email, pass: model.Password);
 
+                String psswrd = await db.Encrypt(model.Email, model.Password);
+                user = await db.GetUsersAsync(model.Email, pass: psswrd);
 
                 if (user != null)
                 {
@@ -56,11 +57,12 @@ namespace WebApplication1.Controllers
             {
                 User user = null;
                 //user = db.Users.Find(new FilterDefinitionBuilder<User>().Regex("Email", new BsonRegularExpression(model.Email))).ToList()[0];
-                Task<User> t = null;
+                
                 user= await db.GetUserE(model.Email);
                 if (user==null)
                 {
-                    await db.Create(new User { Email = model.Name, Password = model.Password, Name = model.Name });
+                    String psswrd = await db.Encrypt(model.Email, model.Password);
+                    await db.Create(new User { Email = model.Name, Password = psswrd, Name = model.Name });
                     FormsAuthentication.SetAuthCookie(model.Email, true);
                     return RedirectToAction("Index", "Home");
                     
