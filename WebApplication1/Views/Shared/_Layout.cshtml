@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="bg-img"></div>
+    <header class="main-color">
+        <span class="menu"><i class="material-icons">menu</i></span>
+    </header>
+    <aside class="keep main-color hide-by-disp">
+        <ul>
+            <li onclick="location.href = 'icons.html'">
+                <a href="icons.html">
+                    <span><i class="material-icons">search</i></span>
+                    <span class="text-in-menu">Спеціальності</span>
+                    <span class="notif red">1</span>
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    <span><i class="material-icons">map</i></span>
+                    <span class="text-in-menu">Квести</span>
+                    <span class="notif yellow">2</span>
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    <span><i class="material-icons">textsms</i></span>
+                    <span class="text-in-menu">Чат-кімната</span>
+                    <span class="notif green">6</span>
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    <span><i class="material-icons">call</i></span>
+                    <span class="text-in-menu">Зворотній зв'язок</span>
+                </a>
+            </li>
+
+        </ul>
+        
+        @if (User.Identity.Name != null)
+        {
+            <div class="profile-small">
+                <div><i class="material-icons">home</i></div>
+                <div><img src="~/Content/Images/user_anonim.png" alt="test"></div>
+                <div><i class="material-icons">settings</i></div>
+                <div><i class="material-icons">exit_to_app</i></div>
+            </div>
+            <div class="profile hide-by-disp">
+                <div><span class="cab">Кабінет<i class="material-icons">home</i></span></div>
+                <div class="photo-profile"><img src="~/Content/Images/user_anonim.png" alt="test"></div>
+                <div class="name-profile">%Ім'я%</div>
+                <div class="settings-profile">Налаштування</div>
+                <div class="log-out-profile">@Html.ActionLink("Вийти з аккаунту", "LogOut", "Account")</div>
+                <div class="footer-of-aside"></div>
+            </div>
+        }
+    </aside>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/script.js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
