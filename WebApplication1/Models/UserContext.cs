@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Text;
+using System.Security.Authentication;
 
 namespace WebApplication1.Models
 {
@@ -19,15 +20,21 @@ namespace WebApplication1.Models
 
         public UserContext()
         {
-            // строка подключения
-            string connectionString = ConfigurationManager.ConnectionStrings["MongoDb"].ConnectionString;
+            string connectionString =
+         @"mongodb://codcorp:S9W0YWeJ5CAk0ujLjfaLcz5pVNINavjSGvzeLYqZrSVhU5dV7ScIACcpy4rRd627TSc6zQ4mZYqSZ2uFw9gYMw==@codcorp.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+            MongoClientSettings settings = MongoClientSettings.FromUrl(
+              new MongoUrl(connectionString)
+            );
+            settings.SslSettings =
+              new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
+            var mongoClient = new MongoClient(settings);
             //var connection = new MongoUrlBuilder(connectionString);
             // получаем клиента для взаимодействия с базой данных
             MongoClient client = new MongoClient(connectionString);
             // получаем доступ к самой базе данных
             // database = client.GetDatabase(connection.DatabaseName);
 
-            connectionString = "mongodb://localhost:27017";
+            connectionString = @"mongodb://codcorp:S9W0YWeJ5CAk0ujLjfaLcz5pVNINavjSGvzeLYqZrSVhU5dV7ScIACcpy4rRd627TSc6zQ4mZYqSZ2uFw9gYMw==@codcorp.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
             client = new MongoClient(connectionString);
             database = client.GetDatabase("test");
             // получаем доступ к файловому хранилищу

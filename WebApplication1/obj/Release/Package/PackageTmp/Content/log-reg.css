@@ -1,0 +1,84 @@
+body{
+  background-color: #313131;
+  font-family: 'Signika', sans-serif;
+}
+.main-color{
+  display: none;
+}
+.bg-img{
+    background-image:url("Images/background3.jpg");
+    position: fixed;
+    opacity: .3;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:-1;
+}
+#log-reg{
+  width: 35%;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 5%;
+ 	margin-top: 20%;
+ 	background-color: white;
+ 	padding: 10px;
+ 	box-shadow: -4px -4px 5px 0 #313131;
+}
+#log-reg > form > div > input{
+	width: 100%;
+	background-color: white;
+}
+label{
+  font-weight: 400;
+}
+.content{
+  margin-top: 50px;
+  font-weight: 400;
+  justify-content: center;
+  font-size: 17px;
+}
+input::-webkit-input-placeholder {
+	color: white !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+	color: white !important;  
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+	color: white !important;  
+}
+input:-ms-input-placeholder {  
+	color: white !important;  
+}
+
+@media only screen and (max-width: 1000px){
+	.index-text-logo{
+		font-size: 30px;
+	}
+	#log-reg{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.info-about-site{
+		position: inherit !important;
+		margin-top: 20px !important;
+		width: 100% !important;
+	}
+	.bg-img{
+		background-size: 100%;
+	}
+}
+.info-about-site{
+	position: absolute;
+	color: white;
+	top:20%;
+	right: 20px;
+	padding: 20px;
+	width: 50%;
+	text-indent: 35px;
+
+}
+.title-site{
+	text-indent: 0;
+}
