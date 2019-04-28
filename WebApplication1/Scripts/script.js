@@ -12,18 +12,15 @@ $(document).ready(function(){
     });
     $(".keep").hover(function(){
         $(".keep").toggleClass("width");
-        if (width > 768) {
-            if (!checkerProfile) {
-               setTimeout(function(){
-                $(".profile").toggleClass("hide-by-disp");
-                $(".profile-small").toggleClass("hide-by-disp");
-            },200); 
-            }else{
-                $(".profile").toggleClass("hide-by-disp");
-                $(".profile-small").toggleClass("hide-by-disp");
-            }
-        }
-        
+        if (!checkerProfile) {
+           setTimeout(function(){
+            $(".profile").toggleClass("hide-by-disp");
+            $(".profile-small").toggleClass("hide-by-disp");
+        },200); 
+       }else{
+            $(".profile").toggleClass("hide-by-disp");
+            $(".profile-small").toggleClass("hide-by-disp");
+       }
         
         checkerProfile = !checkerProfile;
     });
@@ -34,8 +31,6 @@ $(document).ready(function(){
         }
     });
     if (width <= 768) {
-        $(".profile").toggleClass("hide-by-disp");
-        $(".profile-small").toggleClass("hide-by-disp");
     $(".contacts").click(function(){
     if (!checkerAnim) {
         checkerAnim = !checkerAnim;
