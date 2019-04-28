@@ -315,7 +315,7 @@
     <Content Include="Content\Images\background3.jpg" />
     <Content Include="Content\Images\user_anonim.png" />
     <Content Include="Content\index-style.css" />
-    <Content Include="Content\log-reg.css" />
+    <Content Include="Content\log-n-reg.css" />
     <Content Include="Content\menu-style.css" />
     <Content Include="Content\menu.css" />
     <Content Include="Content\Site.css" />

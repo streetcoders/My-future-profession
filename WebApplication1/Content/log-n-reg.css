@@ -26,7 +26,7 @@ body{
  	box-shadow: -4px -4px 5px 0 #313131;
 }
 #log-reg > form > div > input{
-	width: 95%;
+	width: calc(95% - 10px);
 	background-color: white;
 }
 label{
