@@ -47,8 +47,23 @@ namespace WebApplication1.Models
         
         [DataType(DataType.ImageUrl)]
         public string ImageId { get; set; }
+        public bool HasImage()
+        {
+            return !String.IsNullOrWhiteSpace(ImageId);
+        }
 
+    }
+    public class UserEditModel
+    {
+        public string Name { get; set; }
 
+        [DataType(DataType.ImageUrl)]
+        public string ImageId { get; set; }
+
+        public bool HasImage()
+        {
+            return !String.IsNullOrWhiteSpace(ImageId);
+        }
     }
     public class FeedbackModel
     {

@@ -1,0 +1,42 @@
+﻿.chat-room-block {
+  background: #ccc;
+  padding: 20px;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+}
+.chat-room-block > div > div{
+  float: right;
+  color: grey;
+  font-size: 15px;
+}
+.chat-room-block > div{
+  background-color: white;
+  padding: 5px 10px 0 10px;
+  width: calc(100% - 20px);
+  border-radius: 10px;
+  margin-top: 10px;
+  color: orange;
+}
+.chat-room-block > div > img{
+  height: 40px;
+  width: 40px;
+  border-radius: 51%;
+}
+p {
+  color: black !important;
+  width: auto;
+  max-width: 95%;
+  overflow: hidden; /* Обрезаем все, что не помещается в область */
+  text-overflow: ellipsis; /* Добавляем многоточие */
+}
+@media only screen and (max-width: 768px){
+  .chat-room-block{
+    width: calc(95% - 10px);
+    margin: auto;
+  }
+  .body-content{
+    padding: 0;
+  }
+}

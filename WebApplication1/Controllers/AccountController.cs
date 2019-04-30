@@ -30,15 +30,20 @@ namespace WebApplication1.Controllers
 
                 String psswrd = await db.Encrypt(model.Email, model.Password);
                 user = await db.GetUsersAsync(model.Email, pass: psswrd);
-
+                
                 if (user != null)
                 {
+                    Session["Name"] = user.Name;
+                    Session["hasImage"] = user.HasImage();
                     FormsAuthentication.SetAuthCookie(model.Email, true);
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
+                    user = await db.GetUserE(model.Email);
+                    if(user==null)
                     ModelState.AddModelError("", "There is no such user");
+                    else { ModelState.AddModelError("", "Wrong password"); }
                 }
             }
 
@@ -51,7 +56,7 @@ namespace WebApplication1.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async System.Threading.Tasks.Task<ActionResult> Register(RegisterModel model)
+        public async System.Threading.Tasks.Task<ActionResult> Register(RegisterModel model,HttpPostedFileBase uploadedFile)
         {
             if (ModelState.IsValid)
             {
@@ -62,7 +67,17 @@ namespace WebApplication1.Controllers
                 if (user == null)
                 {
                     String psswrd = await db.Encrypt(model.Email, model.Password);
+
+                    Session["hasImage"] = false;
+
+                    Session["Name"] = model.Name;
                     await db.Create(new User { Email = model.Email, Password = psswrd, Name = model.Name, Number = model.Number, DateOfBirth = model.DateOfBirth });
+                    if (uploadedFile != null)
+                    {
+
+                        Session["hasImage"] = true;
+                        await db.StoreImage(model.Email, uploadedFile.InputStream, uploadedFile.FileName);
+                    }
                     FormsAuthentication.SetAuthCookie(model.Email, true);
                     return RedirectToAction("Index", "Home");
 
@@ -81,7 +96,36 @@ namespace WebApplication1.Controllers
             Session.Abandon();
             return RedirectToAction("Login", "Account");
         }
+        public async Task<ActionResult> GetImage()
+        {
+            User u = await db.GetUserE(User.Identity.Name);
+            var image = await db.GetImage(u.ImageId);
+            if (image == null)
+            {
+                return HttpNotFound();
+            }
+            return File(image, "image/png");
+        }
+        public ActionResult EditProfile()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<ActionResult> EditProfile(UserEditModel model,HttpPostedFileBase uploadedFile)
+        {
+            if (model.Name != null)
+            {
+                await db.UpdateName(User.Identity.Name,model.Name);
+            }
 
+            TempData["hasImage"] = false;
+            if (uploadedFile != null)
+            {
+                Session["hasImage"] = true;
+                await db.StoreImage(User.Identity.Name, uploadedFile.InputStream, uploadedFile.FileName);
+            }
+            return View(model);
+        }
     }
 
 }

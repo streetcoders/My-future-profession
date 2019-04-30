@@ -31,11 +31,7 @@ namespace WebApplication1.Models
             //var connection = new MongoUrlBuilder(connectionString);
             // получаем клиента для взаимодействия с базой данных
             MongoClient client = new MongoClient(connectionString);
-            // получаем доступ к самой базе данных
-            // database = client.GetDatabase(connection.DatabaseName);
-
-            connectionString = @"mongodb://codcorp:S9W0YWeJ5CAk0ujLjfaLcz5pVNINavjSGvzeLYqZrSVhU5dV7ScIACcpy4rRd627TSc6zQ4mZYqSZ2uFw9gYMw==@codcorp.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
-            client = new MongoClient(connectionString);
+            
             database = client.GetDatabase("test");
             // получаем доступ к файловому хранилищу
             gridFS = new GridFSBucket(database);
@@ -105,9 +101,9 @@ namespace WebApplication1.Models
             return await gridFS.DownloadAsBytesAsync(new ObjectId(id));
         }
         // сохранение изображения
-        public async Task StoreImage(string id, Stream imageStream, string imageName)
+        public async Task StoreImage(string email, Stream imageStream, string imageName)
         {
-            User c = await GetUser(id);
+            User c = await GetUserE(email);
             if (c.HasImage())
             {
                 // если ранее уже была прикреплена картинка, удаляем ее
@@ -117,11 +113,16 @@ namespace WebApplication1.Models
             ObjectId imageId = await gridFS.UploadFromStreamAsync(imageName, imageStream);
             // обновляем данные по документу
             c.ImageId = imageId.ToString();
-            var filter = Builders<User>.Filter.Eq("_id", c.Id);
+            var filter = Builders<User>.Filter.Eq("Email", c.Email);
             var update = Builders<User>.Update.Set("ImageId", c.ImageId);
             await Users.UpdateOneAsync(filter, update);
         }
-
+        public async Task UpdateName(string email,string newName)
+        {
+            var filter = Builders<User>.Filter.Eq("Email",email);
+            var update = Builders<User>.Update.Set("Name", newName);
+            await Users.UpdateOneAsync(filter, update);
+        }
 
 
     }

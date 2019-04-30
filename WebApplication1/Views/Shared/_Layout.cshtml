@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -6,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title – приложение ASP.NET</title>
     @Styles.Render("~/Content/css")
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     @Scripts.Render("~/bundles/modernizr")
@@ -32,8 +34,8 @@
                     <span class="notif yellow">2</span>
                 </a>
             </li>
-            <li>
-                <a href="/">
+            <li onclick="location.href = '/Home/ChatRoom'">
+                <a href="/Home/ChatRoom">
                     <span><i class="material-icons">textsms</i></span>
                     <span class="text-in-menu">Чат-кімната</span>
                     <span class="notif green">6</span>
@@ -47,20 +49,42 @@
             </li>
 
         </ul>
-        
+
         @if (User.Identity.Name != null)
         {
             <div class="profile-small">
                 <div><i class="material-icons">home</i></div>
-                <div><img src="~/Content/Images/user_anonim.png" alt="test"></div>
-                <div><i class="material-icons">settings</i></div>
-                <div><i class="material-icons">exit_to_app</i></div>
+                <div>
+                    @if (Session["hasImage"]!=null&&(bool)Session["hasImage"])
+                    {
+                        <img src="@Url.Action("GetImage", "Account")" />
+                    }
+                    else
+                    {
+                        <img src="~/Content/Images/user_anonim.png" alt="test">
+
+                    }
+                </div>
+                <div><i class="material-icons">@Html.ActionLink("settings", "EditProfile","Account")</i></div>
+                <div><i class="material-icons">@Html.ActionLink("exit_to_app", "LogOut", "Account")</i></div>
             </div>
             <div class="profile hide-by-disp">
                 <div><span class="cab">Кабінет<i class="material-icons">home</i></span></div>
-                <div class="photo-profile"><img src="~/Content/Images/user_anonim.png" alt="test"></div>
-                <div class="name-profile">%Ім'я%</div>
-                <div class="settings-profile">Налаштування</div>
+                <div class="photo-profile">
+                    @if (Session["hasImage"] != null && (bool)Session["hasImage"]==true)
+                    {
+                        <img src="@Url.Action("GetImage", "Account")" />
+                    }
+                    else
+                    {
+                    <img src="~/Content/Images/user_anonim.png" alt="test">
+
+                    }
+                </div>
+                @if (Session["Name"] != null)
+                {
+                <div class="name-profile">@Session["Name"]</div>}
+                <div class="settings-profile">@Html.ActionLink("Налаштування", "EditProfile","Account")</div>
                 <div class="log-out-profile">@Html.ActionLink("Вийти з аккаунту", "LogOut", "Account")</div>
                 <div class="footer-of-aside"> </div>
             </div>

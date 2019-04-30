@@ -12,11 +12,15 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly UserContext db = new UserContext();
         public ActionResult Index()
         {
             return View();
         }
-
+        public ActionResult ChatRoom()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             
