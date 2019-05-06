@@ -13,6 +13,7 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         private readonly UserContext db = new UserContext();
+        private readonly SpecialityContext dbSpec = new SpecialityContext();
         public ActionResult Index()
         {
             return View();
@@ -20,6 +21,57 @@ namespace WebApplication1.Controllers
         public ActionResult ChatRoom()
         {
             return View();
+        }
+        public ActionResult Chat()
+        {
+            return View();
+        }
+        public ActionResult Speciality()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<ActionResult> Speciality(ShowSpecialityModel model)
+        {
+            return View(model);
+        }
+
+        public ActionResult AddSpeciality()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> AddSpeciality(AddSpecialityModel model,HttpPostedFileBase uploadedFile)
+        {
+            if (ModelState.IsValid)
+            {
+                Speciality spec = null;
+                //user = db.Users.Find(new FilterDefinitionBuilder<User>().Regex("Email", new BsonRegularExpression(model.Email))).ToList()[0];
+
+                spec = await dbSpec.GetSpecialityCode(model.Code);
+                if (spec == null)
+                {
+
+
+                    await dbSpec.Create(new Speciality { Code = model.Code, Name = model.Name, Introduction = model.Introduction, Content = model.Content,Link=model.Link});
+                    await dbSpec.CreateProff(model.Code, model.Jobs);
+                    await dbSpec.CreateSubj(model.Code, model.Subjects);
+
+                    if (uploadedFile != null)
+                    {
+                        await dbSpec.StoreImage(model.Code, uploadedFile.InputStream, uploadedFile.FileName);
+                    }
+                    return RedirectToAction("Index", "Home");
+
+                }
+                else
+                {
+                    ModelState.AddModelError("", "UserSpeciality with this code is existing");
+                }
+            }
+            
+                return View(model);
         }
         public ActionResult About()
         {

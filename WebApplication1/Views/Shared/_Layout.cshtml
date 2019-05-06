@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -65,11 +66,11 @@
 
                     }
                 </div>
-                <div><i class="material-icons">@Html.ActionLink("settings", "EditProfile","Account")</i></div>
-                <div><i class="material-icons">@Html.ActionLink("exit_to_app", "LogOut", "Account")</i></div>
+                <div><i class="material-icons">settings</i></div>
+                <div><i class="material-icons">exit_to_app</i></div>
             </div>
             <div class="profile hide-by-disp">
-                <div><span class="cab">Кабінет<i class="material-icons">home</i></span></div>
+                <div><span style="cursor:default !important" class="cab">Кабінет<i class="material-icons">home</i></span></div>
                 <div class="photo-profile">
                     @if (Session["hasImage"] != null && (bool)Session["hasImage"]==true)
                     {
@@ -84,8 +85,8 @@
                 @if (Session["Name"] != null)
                 {
                 <div class="name-profile">@Session["Name"]</div>}
-                <div class="settings-profile">@Html.ActionLink("Налаштування", "EditProfile","Account")</div>
-                <div class="log-out-profile">@Html.ActionLink("Вийти з аккаунту", "LogOut", "Account")</div>
+                <div class="settings-profile" onclick="location.href='/Account/EditProfile'"><span>Налаштування</span></div>
+                <div class="log-out-profile" onclick="location.href='/Account/LogOut'"><span>Вийти з аккаунту</span></div>
                 <div class="footer-of-aside"> </div>
             </div>
         }
@@ -97,7 +98,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/Scripts/script_new.js")
+    @Scripts.Render("~/Scripts/script.js")
     @RenderSection("scripts", required: false)
 </body>
 </html>

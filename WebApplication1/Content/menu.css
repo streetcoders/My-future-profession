@@ -276,11 +276,11 @@ aside.keep.width ul li a span.notif {
   z-index: 1;
   transition: all .5s ease;
 }
-.contacts div img{
-  width: 50px;
-  border-radius: 51%;
-  box-shadow: 2px -2px 2px 1px grey;
-}
+    .contacts div img {
+        width: 50px;
+        border-radius: 51%;
+        box-shadow: 2px -2px 2px 1px grey;
+    }
 .profile{
   position: absolute;
   bottom: 60px;
@@ -305,6 +305,7 @@ aside.keep.width ul li a span.notif {
 }
 .photo-profile > img{
   width: 90px;
+  height: 90px;
   display: block;
   margin: 5px auto;
   border-radius: 51%;
@@ -333,11 +334,16 @@ aside.keep.width ul li a span.notif {
 
     border-bottom: 1px solid white; 
     height: 50px;
+
 }
-.profile-small > div > img{
-  width: 50px;
-  border-radius: 51%;
-}
+    .profile-small > div > img {
+        width: 50px;
+        height: 50px;
+        border-radius: 51%;
+    }
 .profile-small > div > i{
   margin-top: 10px;
+}
+.settings-profile{
+  background-color: red !important;
 }

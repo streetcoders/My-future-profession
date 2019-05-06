@@ -22,6 +22,7 @@ namespace WebApplication1.Models
         {
             string connectionString =
          @"mongodb://codcorp:S9W0YWeJ5CAk0ujLjfaLcz5pVNINavjSGvzeLYqZrSVhU5dV7ScIACcpy4rRd627TSc6zQ4mZYqSZ2uFw9gYMw==@codcorp.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+            connectionString = "mongodb://localhost:27017";
             MongoClientSettings settings = MongoClientSettings.FromUrl(
               new MongoUrl(connectionString)
             );
@@ -31,7 +32,7 @@ namespace WebApplication1.Models
             //var connection = new MongoUrlBuilder(connectionString);
             // получаем клиента для взаимодействия с базой данных
             MongoClient client = new MongoClient(connectionString);
-            
+
             database = client.GetDatabase("test");
             // получаем доступ к файловому хранилищу
             gridFS = new GridFSBucket(database);
@@ -117,9 +118,9 @@ namespace WebApplication1.Models
             var update = Builders<User>.Update.Set("ImageId", c.ImageId);
             await Users.UpdateOneAsync(filter, update);
         }
-        public async Task UpdateName(string email,string newName)
+        public async Task UpdateName(string email, string newName)
         {
-            var filter = Builders<User>.Filter.Eq("Email",email);
+            var filter = Builders<User>.Filter.Eq("Email", email);
             var update = Builders<User>.Update.Set("Name", newName);
             await Users.UpdateOneAsync(filter, update);
         }

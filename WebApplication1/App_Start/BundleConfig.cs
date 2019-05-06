@@ -7,7 +7,7 @@ namespace WebApplication1
     {
         // Дополнительные сведения об объединении см. на странице https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
-        {   
+        {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/Jquery.js"));
 
@@ -24,8 +24,8 @@ namespace WebApplication1
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/menu.css"));
-           
+                      "~/Content/menu-style.css"));
+
         }
     }
 }

@@ -1,0 +1,20 @@
+.body-content{
+	width: 100%;
+	background-color: white;
+	padding: 20px;
+	margin-top: 50px;
+}
+input[type="text"],textarea{
+	width: calc(100% - 20px) !important;
+}
+.dysc > div, .professions-spec > div{
+	display: flex;
+}
+.body-content i{
+	color: red;
+	cursor: pointer;
+	margin: auto;
+}
+h4{
+	text-align: center;
+}

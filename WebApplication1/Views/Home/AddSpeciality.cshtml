@@ -1,0 +1,86 @@
+﻿@model WebApplication1.Models.AddSpecialityModel
+
+@{
+    ViewBag.Title = "AddSpeciality";
+}
+@Styles.Render("~/Content/AddSpeciality-replace.css")
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <h4>Додати спеціальність</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <label for="Code">Код спеціальності</label>
+        <div>
+            @Html.EditorFor(model => model.Code, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Code, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Name">Назва спеціальності</label>
+        <div>
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Introduction">Знайомство(Інформація)</label>
+        <div>
+            @Html.EditorFor(model => model.Introduction, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Introduction, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Subjects_0_">Основні дисципліни</label>
+        <div class="dysc">
+            <div>
+                <input type="text" id="Subjects_0_" name="Subjects[0]" class="form-control">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Jobs_0_">Основні посади</label>
+        <div class="professions-spec">
+            <div>
+                <input type="text" id="Jobs_0_" name="Jobs[0]" class="form-control">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Content">Основна інформація</label>
+        <div>
+            @Html.EditorFor(model => model.Content, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Link">Посилання на відео</label>
+        <div>
+            @Html.EditorFor(model => model.Link, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Link, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="uploadedFile">Шапка сайту</label>
+        <div>
+            <div>
+                <input type="file" name="uploadedFile" id="uploadedFile"/>
+            </div>
+            @Html.ValidationMessageFor(model => model.ImageId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Додати спеціальність до сайту" class="btn btn-default" />
+    </div>
+    }
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/CntrAddSpec-replace.js")

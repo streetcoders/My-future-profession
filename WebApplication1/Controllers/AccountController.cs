@@ -113,12 +113,12 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public async Task<ActionResult> EditProfile(UserEditModel model,HttpPostedFileBase uploadedFile)
         {
-            if (model.Name != null)
+            if (model.Name != null&&model.Name!="")
             {
                 await db.UpdateName(User.Identity.Name,model.Name);
+                Session["Name"] = model.Name;
             }
-
-            TempData["hasImage"] = false;
+            
             if (uploadedFile != null)
             {
                 Session["hasImage"] = true;
