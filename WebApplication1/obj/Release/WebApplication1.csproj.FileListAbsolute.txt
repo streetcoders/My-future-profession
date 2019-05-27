@@ -1,220 +1,676 @@
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.Azure.Documents.ServiceInterop.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ApplicationInsights.config
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\WebApplication1.dll.config
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\WebApplication1.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\WebApplication1.pdb
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\csc.exe
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\csc.exe.config
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\csc.rsp
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\csi.exe
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\csi.exe.config
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\csi.rsp
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.AppContext.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Console.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.IO.Compression.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.IO.Pipes.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Security.Claims.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.ValueTuple.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\vbc.exe
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\vbc.exe.config
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\vbc.rsp
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\VBCSCompiler.exe
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.Win32.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\netstandard.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.AppContext.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Collections.Concurrent.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Collections.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Collections.NonGeneric.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Collections.Specialized.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.ComponentModel.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.ComponentModel.EventBasedAsync.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.ComponentModel.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.ComponentModel.TypeConverter.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Console.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Data.Common.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.Contracts.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.Debug.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.Process.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.StackTrace.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.TextWriterTraceListener.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.Tools.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.TraceSource.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.Tracing.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Drawing.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Dynamic.Runtime.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Globalization.Calendars.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Globalization.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Globalization.Extensions.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.Compression.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.Compression.ZipFile.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.FileSystem.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.FileSystem.DriveInfo.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.FileSystem.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.FileSystem.Watcher.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.IsolatedStorage.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.MemoryMappedFiles.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.Pipes.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.IO.UnmanagedMemoryStream.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Linq.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Linq.Expressions.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Linq.Parallel.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Linq.Queryable.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.Http.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.NameResolution.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.NetworkInformation.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.Ping.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.Requests.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.Security.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.Sockets.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.WebHeaderCollection.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.WebSockets.Client.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Net.WebSockets.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.ObjectModel.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Reflection.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Reflection.Extensions.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Reflection.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Resources.Reader.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Resources.ResourceManager.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Resources.Writer.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.CompilerServices.VisualC.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.Extensions.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.Handles.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.InteropServices.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.Numerics.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.Serialization.Formatters.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.Serialization.Json.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.Serialization.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Runtime.Serialization.Xml.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.Claims.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.Cryptography.Algorithms.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.Cryptography.Csp.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.Cryptography.Encoding.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.Cryptography.Primitives.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.Principal.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Security.SecureString.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Text.Encoding.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Text.Encoding.Extensions.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Text.RegularExpressions.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Threading.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Threading.Overlapped.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Threading.Tasks.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Threading.Tasks.Parallel.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Threading.Thread.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Threading.ThreadPool.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Threading.Timer.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.ValueTuple.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Xml.ReaderWriter.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Xml.XDocument.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Xml.XmlDocument.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Xml.XmlSerializer.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Xml.XPath.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Xml.XPath.XDocument.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Antlr3.Runtime.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\DnsClient.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.Web.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.Azure.DocumentDB.Core.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Bson.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Driver.Core.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Driver.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Driver.GridFS.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Newtonsoft.Json.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Buffers.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Collections.Immutable.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Data.CData.MongoDB.Designer.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Data.CData.MongoDB.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Data.CData.MongoDB.Entities.EF6.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Helpers.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Mvc.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Optimization.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Razor.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.WebPages.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.WebPages.Razor.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\WebGrease.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\DnsClient.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Bson.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Driver.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Driver.Core.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\MongoDB.Driver.GridFS.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Buffers.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Collections.Immutable.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Helpers.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Mvc.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Optimization.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.Razor.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.WebPages.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Web.WebPages.Razor.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Newtonsoft.Json.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Antlr3.Runtime.pdb
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.AI.Web.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\System.Web.Helpers.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\System.Web.Mvc.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\System.Web.Razor.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\System.Web.WebPages.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\bin\ru\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\obj\Release\WebApplication1.csprojAssemblyReference.cache
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\obj\Release\WebApplication1.csproj.CoreCompileInputs.cache
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\obj\Release\WebApplication1.csproj.CopyComplete
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\obj\Release\WebApplication1.dll
-C:\Users\Vlad\Downloads\testq\test\test\WebApplication1\obj\Release\WebApplication1.pdb
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ApplicationInsights.config
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Win32.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\netstandard.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.AppContext.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.Concurrent.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.NonGeneric.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.Specialized.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Console.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Data.Common.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Contracts.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Debug.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Process.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.StackTrace.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Tools.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.TraceSource.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Tracing.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Drawing.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Dynamic.Runtime.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.Calendars.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.Extensions.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Compression.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Compression.ZipFile.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.IsolatedStorage.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Pipes.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Expressions.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Parallel.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Queryable.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Http.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.NameResolution.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.NetworkInformation.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Ping.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Requests.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Security.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Sockets.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebHeaderCollection.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebSockets.Client.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebSockets.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.ObjectModel.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.Extensions.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.Reader.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.ResourceManager.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.Writer.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Extensions.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Handles.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Numerics.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Json.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Claims.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Csp.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Principal.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.SecureString.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.Encoding.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.Encoding.Extensions.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.RegularExpressions.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Overlapped.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Tasks.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Thread.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.ThreadPool.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Timer.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.ReaderWriter.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XDocument.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XmlDocument.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XmlSerializer.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XPath.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XPath.XDocument.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Buffers.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\DnsClient.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Bson.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.Core.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.GridFS.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Buffers.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Razor.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csprojAssemblyReference.cache
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CopyComplete
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+C:\Users\ALEX\Downloads\Telegram Desktop\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ApplicationInsights.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Win32.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\netstandard.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.AppContext.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.Concurrent.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.NonGeneric.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.Specialized.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.EventBasedAsync.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.TypeConverter.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Console.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Data.Common.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Contracts.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Debug.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.FileVersionInfo.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Process.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.StackTrace.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Tools.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.TraceSource.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Tracing.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Drawing.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Dynamic.Runtime.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.Calendars.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Compression.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Compression.ZipFile.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.DriveInfo.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Watcher.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.IsolatedStorage.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.MemoryMappedFiles.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Pipes.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.UnmanagedMemoryStream.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Expressions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Parallel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Queryable.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Http.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.NameResolution.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.NetworkInformation.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Ping.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Requests.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Security.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Sockets.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebHeaderCollection.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebSockets.Client.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebSockets.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.ObjectModel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.Reader.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.ResourceManager.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.Writer.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Handles.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Numerics.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Formatters.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Json.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Xml.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Claims.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Algorithms.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Csp.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Encoding.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.X509Certificates.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Principal.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.SecureString.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.Encoding.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.Encoding.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.RegularExpressions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Overlapped.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Tasks.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Parallel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Thread.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.ThreadPool.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Timer.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.ReaderWriter.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XDocument.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XmlDocument.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XmlSerializer.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XPath.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XPath.XDocument.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Buffers.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\DnsClient.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Bson.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.Core.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.GridFS.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Buffers.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Helpers.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Mvc.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Razor.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csprojAssemblyReference.cache
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CoreCompileInputs.cache
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CopyComplete
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ApplicationInsights.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.Win32.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\netstandard.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.AppContext.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Collections.Concurrent.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Collections.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Collections.NonGeneric.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Collections.Specialized.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.ComponentModel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.ComponentModel.EventBasedAsync.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.ComponentModel.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.ComponentModel.TypeConverter.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Console.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Data.Common.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.Contracts.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.Debug.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.FileVersionInfo.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.Process.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.StackTrace.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.Tools.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.TraceSource.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.Tracing.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Drawing.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Dynamic.Runtime.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Globalization.Calendars.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Globalization.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Globalization.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.Compression.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.Compression.ZipFile.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.FileSystem.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.FileSystem.DriveInfo.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Watcher.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.IsolatedStorage.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.MemoryMappedFiles.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.Pipes.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.IO.UnmanagedMemoryStream.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Linq.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Linq.Expressions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Linq.Parallel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Linq.Queryable.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.Http.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.NameResolution.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.NetworkInformation.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.Ping.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.Requests.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.Security.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.Sockets.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.WebHeaderCollection.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.WebSockets.Client.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Net.WebSockets.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.ObjectModel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Reflection.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Reflection.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Reflection.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Resources.Reader.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Resources.ResourceManager.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Resources.Writer.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.Handles.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.Numerics.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Formatters.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Json.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Xml.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.Claims.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Algorithms.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Csp.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Encoding.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Primitives.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.Cryptography.X509Certificates.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.Principal.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Security.SecureString.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Text.Encoding.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Text.Encoding.Extensions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Text.RegularExpressions.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Threading.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Threading.Overlapped.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Threading.Tasks.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Parallel.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Threading.Thread.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Threading.ThreadPool.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Threading.Timer.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Xml.ReaderWriter.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Xml.XDocument.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Xml.XmlDocument.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Xml.XmlSerializer.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Xml.XPath.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Xml.XPath.XDocument.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Buffers.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\DnsClient.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\MongoDB.Bson.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\MongoDB.Driver.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\MongoDB.Driver.Core.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\MongoDB.Driver.GridFS.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Buffers.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\System.Web.Helpers.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\System.Web.Mvc.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\System.Web.Razor.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\obj\Release\WebApplication1.csprojAssemblyReference.cache
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CoreCompileInputs.cache
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CopyComplete
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+C:\WebApplication1 (2)\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ApplicationInsights.config
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\netstandard.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.AppContext.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.Concurrent.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.NonGeneric.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Collections.Specialized.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Console.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Data.Common.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Contracts.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Debug.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Process.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Tools.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.Tracing.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Drawing.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Dynamic.Runtime.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.Calendars.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Globalization.Extensions.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Compression.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.IsolatedStorage.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.Pipes.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Expressions.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Parallel.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Linq.Queryable.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Http.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.NameResolution.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.NetworkInformation.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Ping.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Requests.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Security.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.Sockets.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebSockets.Client.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Net.WebSockets.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.ObjectModel.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.Extensions.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Reflection.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.Reader.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.ResourceManager.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Resources.Writer.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Extensions.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Handles.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Numerics.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Claims.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.Principal.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Security.SecureString.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.Encoding.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Text.RegularExpressions.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Overlapped.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Tasks.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Thread.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.ThreadPool.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Threading.Timer.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.ReaderWriter.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XDocument.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XmlDocument.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XmlSerializer.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XPath.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Buffers.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\DnsClient.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Bson.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.Core.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\MongoDB.Driver.GridFS.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Buffers.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csprojAssemblyReference.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.csproj.CopyComplete
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\1\WebApplication1\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb

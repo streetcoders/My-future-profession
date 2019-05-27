@@ -149,8 +149,8 @@ aside ul li a span.notif.red  {
   display: none !important;
 }
 .keep{
-	position: fixed;
-	top: 52px;
+  position: fixed;
+  top: 52px;
   transition: .5s;
   z-index: 5;
 }
@@ -170,40 +170,40 @@ aside.keep.width ul li a span.notif {
   .keep{
     width: 270px;
   }
-  	span.notif.red {
+   span.notif.red {
     width: 30px !important;
     height: 30px !important;
     right: 15px !important;
     color: #fff !important;
     box-shadow: 0px 0px 60px #e74c3c !important;
     top: 10px !important;
-	}
-	span.notif.yellow {
+  }
+  span.notif.yellow {
     width: 30px !important;
     height: 30px !important;
     right: 15px !important;
     color: #fff !important;
     box-shadow: 0px 0px 60px #f1c40f !important;
     top: 10px !important;
-	}
-	span.notif.green{
+  }
+  span.notif.green{
     width: 30px !important;
     height: 30px !important;
     right: 15px !important;
     color: #fff !important;
     box-shadow: 0px 0px 60px #27ae60 !important;
     top: 10px !important;
-	}
+  }
 }
 .cabinet{
   /*font-family: 'Marmelad', sans-serif;
   font-family: 'Roboto', sans-serif;*/
   font-family: 'Roboto Slab', serif;
-	background-color: #eb6429;
-	border-radius: 5px;
-	margin-left: auto;	
-	position: absolute;
-	right: 50px;
+  background-color: #eb6429;
+  border-radius: 5px;
+  margin-left: auto;  
+  position: absolute;
+  right: 50px;
   padding: 0 30px;
   cursor: pointer;
   color: white;
@@ -278,6 +278,84 @@ aside.keep.width ul li a span.notif {
 }
 .contacts div img{
   width: 50px;
+  height:50px;
   border-radius: 51%;
   box-shadow: 2px -2px 2px 1px grey;
 }
+.profile{
+  position: absolute;
+  bottom: 60px;
+  float: left;
+  width: 100%;
+}
+.cab{
+  /*font-family: 'Marmelad', sans-serif;
+  font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto Slab', serif;
+  background-color: #eb6429 !important;
+  padding: 0 30px;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: 0 !important;
+
+}
+.cab i{
+  position: relative;
+  top: 3px;
+}
+.photo-profile > img{
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 5px auto;
+  border-radius: 51%;
+}
+.name-profile, .settings-profile, .log-out-profile{
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.footer-of-aside{
+  background-color: #eb6429;
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+}
+.profile-small{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 65px;
+}
+.profile-small > div:nth-child(1){
+    border-top: 1px solid white; 
+}
+.profile-small > div{
+
+    border-bottom: 1px solid white; 
+    height: 50px;
+}
+.profile-small > div > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 51%;
+}
+.profile-small > div > i{
+  margin-top: 10px;
+}
+.profile{
+  background-color: #222222 !important;
+}
+.profile > div > span{
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: 5px 15px; 
+  outline: none;
+  cursor: pointer;
+}
+.profile > div > span:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+.profile > div > span:active { background: rgb(152,15,0); } /* при нажатии */

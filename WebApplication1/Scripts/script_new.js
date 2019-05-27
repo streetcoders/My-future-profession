@@ -12,7 +12,7 @@ $(document).ready(function () {
         $(".contacts").toggleClass("hide-by-disp");
     });
 
-    $(".body-content").click(function () {
+    $("article").click(function () {
         if ($(".keep").hasClass("hide-by-disp") == false) {
             $(".keep").toggleClass("hide-by-disp");
             $(".contacts").toggleClass("hide-by-disp");

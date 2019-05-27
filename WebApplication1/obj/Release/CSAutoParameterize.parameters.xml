@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="MongoDb-Web.config Connection String" description="MongoDb Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="mongodb://codcorp:S9W0YWeJ5CAk0ujLjfaLcz5pVNINavjSGvzeLYqZrSVhU5dV7ScIACcpy4rRd627TSc6zQ4mZYqSZ2uFw9gYMw==@codcorp.documents.azure.com:10255/?ssl=true" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Vlad\\Downloads\\testq\\test\\test\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MongoDb']/@connectionString" />
+  <parameter name="MongoDb-Web.config Connection String" description="MongoDb Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="mongodb://futuredb:ZKFb4MTdNeLpEa1ghKbd2Fuqe3aA7MmmJ9XAOXLm9xfCDWOoSsT5nEeMwusngbUEOFogFZxu2ZMvIz5Wop9EPA==@futuredb.documents.azure.com:10255/?ssl=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Vlad\\Downloads\\Telegram\ Desktop\\1\\WebApplication1\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MongoDb']/@connectionString" />
   </parameter>
 </parameters>

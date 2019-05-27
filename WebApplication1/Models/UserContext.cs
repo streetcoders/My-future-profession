@@ -2,7 +2,7 @@
 using MongoDB.Driver;
 using MongoDB.Driver.GridFS;
 using System;
-using System.Collections.Generic;
+using System.Collections.Generic;   
 using System.Configuration;
 using System.IO;
 using System.Linq;
@@ -21,8 +21,9 @@ namespace WebApplication1.Models
         public UserContext()
         {
             string connectionString =
-         @"mongodb://codcorp:S9W0YWeJ5CAk0ujLjfaLcz5pVNINavjSGvzeLYqZrSVhU5dV7ScIACcpy4rRd627TSc6zQ4mZYqSZ2uFw9gYMw==@codcorp.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
-            connectionString = "mongodb://localhost:27017";
+         @"mongodb://futuredb:ZKFb4MTdNeLpEa1ghKbd2Fuqe3aA7MmmJ9XAOXLm9xfCDWOoSsT5nEeMwusngbUEOFogFZxu2ZMvIz5Wop9EPA==@futuredb.documents.azure.com:10255/?ssl=true";
+           //connectionString = "mongodb://localhost:27017";
+            //connectionString= @"mongodb://streetcoders:WayE9mEkk9iuWG1VFfUeysKVhF9gSTG6kfmec4GG1E5QGfF3LMcDpJHagNKXLUbcDXg8NyEC7jjp1ndeouNSmw==@streetcoders.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
             MongoClientSettings settings = MongoClientSettings.FromUrl(
               new MongoUrl(connectionString)
             );

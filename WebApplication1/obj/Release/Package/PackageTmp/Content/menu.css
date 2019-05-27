@@ -149,8 +149,8 @@ aside ul li a span.notif.red  {
   display: none !important;
 }
 .keep{
-	position: fixed;
-	top: 52px;
+  position: fixed;
+  top: 52px;
   transition: .5s;
   z-index: 5;
 }
@@ -170,40 +170,40 @@ aside.keep.width ul li a span.notif {
   .keep{
     width: 270px;
   }
-  	span.notif.red {
+    span.notif.red {
     width: 30px !important;
     height: 30px !important;
     right: 15px !important;
     color: #fff !important;
     box-shadow: 0px 0px 60px #e74c3c !important;
     top: 10px !important;
-	}
-	span.notif.yellow {
+  }
+  span.notif.yellow {
     width: 30px !important;
     height: 30px !important;
     right: 15px !important;
     color: #fff !important;
     box-shadow: 0px 0px 60px #f1c40f !important;
     top: 10px !important;
-	}
-	span.notif.green{
+  }
+  span.notif.green{
     width: 30px !important;
     height: 30px !important;
     right: 15px !important;
     color: #fff !important;
     box-shadow: 0px 0px 60px #27ae60 !important;
     top: 10px !important;
-	}
+  }
 }
 .cabinet{
   /*font-family: 'Marmelad', sans-serif;
   font-family: 'Roboto', sans-serif;*/
   font-family: 'Roboto Slab', serif;
-	background-color: #eb6429;
-	border-radius: 5px;
-	margin-left: auto;	
-	position: absolute;
-	right: 50px;
+  background-color: #eb6429;
+  border-radius: 5px;
+  margin-left: auto;  
+  position: absolute;
+  right: 50px;
   padding: 0 30px;
   cursor: pointer;
   color: white;
@@ -278,6 +278,7 @@ aside.keep.width ul li a span.notif {
 }
 .contacts div img{
   width: 50px;
+  height:50px;
   border-radius: 51%;
   box-shadow: 2px -2px 2px 1px grey;
 }
@@ -291,12 +292,13 @@ aside.keep.width ul li a span.notif {
   /*font-family: 'Marmelad', sans-serif;
   font-family: 'Roboto', sans-serif;*/
   font-family: 'Roboto Slab', serif;
-  background-color: #eb6429;
+  background-color: #eb6429 !important;
   padding: 0 30px;
   color: white;
   display: block;
   margin: 0 auto;
   text-align: center;
+  border: 0 !important;
 
 }
 .cab i{
@@ -305,6 +307,7 @@ aside.keep.width ul li a span.notif {
 }
 .photo-profile > img{
   width: 90px;
+  height: 90px;
   display: block;
   margin: 5px auto;
   border-radius: 51%;
@@ -336,8 +339,43 @@ aside.keep.width ul li a span.notif {
 }
 .profile-small > div > img{
   width: 50px;
+  height: 50px;
   border-radius: 51%;
 }
 .profile-small > div > i{
   margin-top: 10px;
+}
+.profile{
+  background-color: #222222 !important;
+}
+.profile > div > span{
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: 5px 15px; 
+  outline: none;
+  cursor: pointer;
+}
+.profile > div > span:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+.profile > div > span:active { background: rgb(152,15,0); } /* при нажатии */
+
+.girl_block{
+  position: fixed;
+  display: flex;
+  right: 0;
+  bottom: 0;
+}
+.girl_photo, .girl_photo > img{
+  width: 300px;
+  height: 300px;
+}
+.girl_text{
+  width: 400px;
+  height: 200px;
+  background: black;
+  color: white;
+  overflow: auto;
+  padding: 20px;
+  border-radius: 15px;
 }

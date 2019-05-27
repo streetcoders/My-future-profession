@@ -1,0 +1,19 @@
+h1, h2, h4, h3 {
+    text-align: center;
+}
+
+input {
+    margin-left: 3px;
+}
+
+i {
+    font-size: 90%;
+}
+
+#create {
+    margin: 40px auto 30px;
+}
+.body-content{
+	margin-top: 50px;
+	background: white;
+}

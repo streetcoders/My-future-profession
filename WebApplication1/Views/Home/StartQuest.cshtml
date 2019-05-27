@@ -1,0 +1,25 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 1";
+}
+@Styles.Render("~/Content/global-new-site.css")
+@Styles.Render("~/Content/Start.css")
+
+
+<div id="menu">
+    <div class="funkyradio">
+        <div id="walkthrough">
+
+        </div>
+    </div>
+</div>
+
+<textarea name="input" id="input"   cols="75" rows="15" oninput="init(this.value)" onload="init(this.value)">@Model.QuestText</textarea>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRurp_NbOhUErVXxkOmjtomiC2p5clHNw"></script>
+
+@Scripts.Render("~/Scripts/QuestGlobal.js")
+@Scripts.Render("~/Scripts/Start-replace.js")

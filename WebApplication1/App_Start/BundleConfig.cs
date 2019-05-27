@@ -24,7 +24,7 @@ namespace WebApplication1
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/menu-style.css"));
+                      "~/Content/menu-replace.css"));
 
         }
     }

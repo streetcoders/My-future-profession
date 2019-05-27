@@ -1,0 +1,62 @@
+.header-info, .main-act, .footer-info{
+	margin:15px;
+	text-indent: 30px;
+	font-family: 'Roboto',sans-serif; 
+	color: #333333;
+	font-size: 15px;
+}
+.preview-specialty{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+    margin-top: 50px;
+	padding: 20px;
+}
+.picture{
+	border: 3px solid white;
+}
+.picture > img{
+	width: 100%;
+	height: 40vh;
+}
+.main-act{
+	display: flex;
+}
+h3{
+	font-family: 'Roboto Condensed';
+	font-size: 23px;
+	font-weight: normal;
+}
+ul{
+	text-indent: 0;
+}
+ul li{
+	margin-top: 5px;
+}
+.main-act > div {
+    padding-left: 30px;
+}
+.main-dysc {
+    width: 60%;
+}
+.professions{
+	width: 40%;
+}
+.video-container{
+	display: none;
+	margin:auto; 
+	width:90%;
+}
+.video-container iframe{
+	width:100%;
+	height:50vh;
+}
+@media only screen and (max-width: 768px){
+	.main-act{
+	display: block;
+	}
+	.main-dysc, .professions{
+		width: 100%;
+	}
+}

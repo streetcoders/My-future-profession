@@ -1,48 +1,46 @@
 ﻿@model WebApplication1.Models.FeedbackModel
 
 @{
-    ViewBag.Title = "Feedback";
+    ViewBag.Title = "Зворотній зв'язок";
 }
+@Styles.Render("~/Content/feedback.css")
 
 <h2>Feedback</h2>
 
+<div class="feedback-block">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
 
-@using (Html.BeginForm()) 
-{
-    @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>FeedbackModel</h4>
-        <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
-            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+            <label for="ModelEmail">Ваша пошта</label>
+            <div>
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "example@gmail.com" } })
                 @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Message, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control" } })
+            <label for="Modelmsg">Повідомлення</label>
+            <div>
+                @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control", @placeholder = "Текст" } })
                 @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
+            <input type="submit" value="Надіслати" class="btn btn-default" />
         </div>
-    </div>
-}
-
-<div>
-    @Html.ActionLink("Back to List", "Index")
+    }
 </div>
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <script>
+        if (localStorage.getItem('Liza') == "true") {
+            setTimeout(function () {
+                writeMsg("Тільки поглянь! Тут можна написати розробникам сайту. Кажуть, що вони навіть можуть тобі відповісти) Що чекаеш? Напишеш їм щось? Тільки я не думаю, що варто писати їм занадто багато листів)", 1);
+            }, 250);
+        }
+    </script>

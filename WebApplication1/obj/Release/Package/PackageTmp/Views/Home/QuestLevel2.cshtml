@@ -1,0 +1,29 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 1";
+}
+@Styles.Render("~/Content/global-new-site.css")
+@Styles.Render("~/Content/QuestLevel2-replace.css?1")
+
+<h2 id="company"></h2>
+<div class="row">
+    <div class="col-11" id="about"></div>
+    <div class="col-11" id="map"></div>
+</div>
+<br>
+
+<h2>Пройдіть тестування від компанії</h2>
+<div id="quest" class="container-fluid text-center">
+
+</div>
+
+<div class="text-center">
+    <button class="btn btn-success" id="create" onclick="next()">Наступний рівень</button>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRurp_NbOhUErVXxkOmjtomiC2p5clHNw"></script>
+@Scripts.Render("~/Scripts/QuestGlobal.js")
+@Scripts.Render("~/Scripts/QuestLevel2-replace.js")

@@ -1,0 +1,21 @@
+.wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+select {
+    font-size: 105%;
+}
+
+.cell {
+    height: 30px;
+    width: 30px;
+    background: yellowgreen;
+    border: 1px solid black;
+}
+
+#field {
+    margin-top: 25px;
+    display: inline-block;
+    border: 1px solid black;
+}

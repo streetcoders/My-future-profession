@@ -1,0 +1,101 @@
+.body-content{
+	margin-top: 80px;
+	width: 100%;
+	min-height: 100vh;
+	border-radius: 10px;
+	padding-top: 50px;
+	background: white;
+}
+h5{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 1.25rem;
+}
+.image-from-menu, .items-from-menu, .items-from-menu > div{
+	margin-left: auto;
+	margin-right: auto;
+}
+.image-from-menu > img{
+	width: 100%;
+	height: 100%;
+	border-radius: 51%;
+	box-shadow: 0 0 5px 1px #313131;
+}
+.items-from-menu > div:hover .image-from-menu{
+	transform: rotate3d(0, 1, 0, 180deg);
+}
+.image-from-menu{
+	width: 95%;
+	transition: 1s;
+	margin-top: 15px;
+}
+.items-from-menu{
+	width: 100%;
+	display: flex;
+}
+.items-from-menu p{
+	padding: 10px;
+	text-indent: 10px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	box-shadow: 1px 1px 5px 0 #313131;
+	animation: 2s 0s alternate readyp;
+	animation-timing-function: ease-in-out;
+}
+.items-from-menu > div{
+	width: 15%;
+	/*box-shadow: 2px 2px 8px 1px #313131;*/
+	height: 40vh;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.items-from-menu > div:nth-child(even){
+	margin-top: 20vh;
+	animation: 1s linear 0s alternate readyeven;
+}
+.items-from-menu > div:nth-child(odd){
+	animation: 1s linear 0s alternate readyodd;
+}
+.video-preview{
+	margin-top: 50px;
+}
+@keyframes readyeven{
+	from{
+		opacity: 0;
+		margin-top: 0;
+	}
+	to{
+		opacity: 1;
+		margin-top: 20vh;
+	}
+}
+@keyframes readyodd{
+	from{
+		opacity: 0;
+		margin-top: 150px;
+	}
+	to{
+		opacity: 1;
+		margin-top: 0;
+	}
+}
+@keyframes readyp{
+	from{
+		opacity: 0;
+		margin-top: 200px;
+	}
+	to{
+		opacity: 1;
+		margin-top: 10px;
+	}
+}
+iframe{
+	width:100%;
+	height:50vh;
+}
+@media only screen and (max-width: 1000px){
+	.items-from-menu{
+		display: block;
+	}
+}

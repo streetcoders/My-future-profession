@@ -1,0 +1,32 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 4";
+}
+@Styles.Render("~/Content/global-replace.css")
+@Styles.Render("~/Content/Level4.css")
+
+
+<h4>Створення рівня-гри "Працевлаштування"</h4>
+
+<div class="wrapper">
+    <div class="block">
+        <div class="content">
+            <div>
+                <input type="text" id="name">
+            </div>
+        </div>
+        <p class="info">Ви не створили посад, давайте почнемо!</p>
+        <p class="mess">Створіть хоча б одну</p>
+    </div>
+
+    <div class="text-center">
+        <input type="hidden" id="code" value="@Model.Code" />
+        <button class="btn btn-success" id="create" onclick="createLevel()">Створити рівень</button>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+@Scripts.Render("~/Scripts/global.js")
+@Scripts.Render("~/Scripts/Level4-replace.js?1")

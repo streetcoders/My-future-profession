@@ -1,0 +1,46 @@
+.wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+textarea {
+    font-size: 105%;
+}
+
+#map {
+    display: inline-block;
+    margin: 20px auto 0;
+}
+
+.cell {
+    /*8px*/
+    height: 4px;
+    width: 4px;
+    /*border: 1px solid black;*/
+}
+
+.green {
+    background: yellowgreen;
+}
+
+.grey {
+    background: gray;
+}
+
+.player {
+    margin-top: -45px;
+    margin-left: -10px;
+    height: 55px;
+    width: 26px;
+    position: absolute;
+    background: url("Images/student.png");
+    z-index: 1000;
+}
+
+.company {
+    margin-top: -30px;
+    margin-left: -30px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}

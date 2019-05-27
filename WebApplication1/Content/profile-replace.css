@@ -1,0 +1,130 @@
+﻿
+@media only screen and (max-width: 768px){
+  .body-content{
+    padding: 0;
+  }
+}
+
+  .edit-profile{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-top: 50px;
+    padding: 20px;
+    background: #313131;
+    color: white;
+  }
+  .photo, .photo > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 51%;
+    z-index: 1;
+  }
+  .nickname, .chgNickName{
+    width: 150px;  
+  }
+  .nickname{
+    margin-top: 10px;
+  }
+  .chgNickName{
+    border: none;
+    border-bottom: solid 3px green;
+    outline: none;
+    text-align: center;
+  }
+    .photo > div{
+    width: 150px;
+    height: 150px;
+    border-radius: 51%;
+    color: black !important;
+    position: relative;
+    top: -150px;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    text-align: center;
+    background: white;
+    opacity: .4;
+    transition: opacity .5s;
+    cursor: pointer;
+    line-height: 150px;
+  }
+  .photo > div:hover{
+    opacity: .8;
+  }
+  #uploadedFile{
+    display: none;
+  }
+  .sbm{
+    margin-top: 30px;
+    width: 150px;
+  }
+  .sbm > input{
+    width: 150px
+  }
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.liza{
+	margin-top: 30px;
+	border-radius: 5px;
+	background: purple;
+	padding: 7px 5px 0 5px;
+	text-align: center;
+}

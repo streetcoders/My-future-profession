@@ -17,6 +17,10 @@ namespace WebApplication1.Models
         public string Content { get; set; }
         public string Link { get; set; }
         public string ImageId { get; set; }
+        public bool HasImage()
+        {
+            return !String.IsNullOrWhiteSpace(ImageId);
+        }
     }
     public class Speciality_Subject
     {
@@ -31,5 +35,13 @@ namespace WebApplication1.Models
         public ObjectId Id { get; set; }
         public string Code { get; set; }
         public string Proffesion { get; set; }
+    }
+
+    public class Quest_Speciality
+    {
+        [BsonId]
+        public ObjectId Id { get; set; }
+        public string Code { get; set; }
+        public string QuestText { get; set; }
     }
 }

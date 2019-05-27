@@ -1,0 +1,26 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Конструктор квестов";
+}
+@Styles.Render("~/Content/global-replace.css")
+@Styles.Render("~/Content/GeneralConstructor-replace.css")
+
+
+<h4>Створення квесту для спеціальності</h4>
+
+<i>Натисніть на рівень квесту щоб почати створювати його</i>
+
+<div class="funkyradio">
+    <div id="constructor">
+
+    </div>
+</div>
+
+<div class="text-center">
+    <input type="hidden" id="code" value="@Model.Code" />
+    <button class="btn btn-success" id="create" onclick="create()">Створити спеціальність</button>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/Scripts/global.js")
+@Scripts.Render("~/Scripts/GeneralConstructor-replace2.js?1")

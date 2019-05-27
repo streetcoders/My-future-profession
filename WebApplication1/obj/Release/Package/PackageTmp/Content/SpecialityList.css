@@ -1,0 +1,64 @@
+﻿.body-content{
+	width: 100%;
+	background-color: white;
+	padding: 20px;
+	margin-top: 50px;
+}
+.all-item{
+	display: block;
+}
+.all-item i{
+	float: right;
+	margin-top: 10px;
+}
+.all-item a{
+	color: red;
+}
+.all-item a:hover{
+	color: black;
+}
+.block-w-item{
+	display: flex;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.code-circle{
+	width: 70px;
+	height: 70px;
+	border-radius: 51%;
+	line-height: 70px;
+	background: #313131;
+	z-index: 2;
+	color: white;
+}
+.name-speciality{	
+	position: relative;
+	z-index: 1;
+	background: black;
+	height: 50px;
+	width: calc(100% - 70px);
+	line-height: 50px;
+	top:10px;
+	left: -10px;
+	padding: 0 15px;
+	overflow: hidden;
+	text-align: left !important;
+	color: orange;
+	border-radius: 0 5px 5px 0;
+	font-family: 'Roboto', sans-serif;
+}
+.search{
+	display: block;
+	margin:auto;
+	border:none;
+	border-bottom: 3px solid orange;
+	outline: none;
+	text-align: center;
+	transition: all 1s linear;
+}
+h2{
+	text-align: center;
+}

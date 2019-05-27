@@ -1,11 +1,45 @@
 ﻿@{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Головна";
 }
 @Styles.Render("~/Content/index-style.css")
-    <section class="main">
-        <!--CONTENT-->
-        <article>
-           
-        </article>
 
-    </section>
+<div class="items-from-menu">
+    <div onclick="location.href='/Home/SpecialityList'">
+        <div class="image-from-menu"><img src="~/Content/Images/search.jpg" alt="item" /></div>
+        <h5>Пошук</h5>
+        <p>Знайдіть спеціальність до душі</p>
+    </div>
+    <div onclick="location.href='/Home/Chat'">
+        <div class="image-from-menu"><img src="~/Content/Images/chat.png" alt="item" /></div>
+        <h5>Чат</h5>
+        <p>Спілкуйтеся з іншими користувачами</p>
+    </div>
+    <div onclick="location.href='/Home/Feedback'">
+        <div class="image-from-menu"><img src="~/Content/Images/telephone.jpg" alt="item" /></div>
+        <h5>Зворотній звязок</h5>
+        <p>Задайте питання адміністрацї</p>
+    </div>
+    <div onclick="location.href='/Account/EditProfile'">
+        <div class="image-from-menu"><img src="~/Content/Images/settings.png" alt="item" /></div>
+        <h5>Налаштування</h5>
+        <p>Змініть фото або ім'я</p>
+    </div>
+    <div>
+        <div class="image-from-menu"><img src="~/Content/Images/quest.png" alt="item" /></div>
+        <h5>Конструктор</h5>
+        <p>Створити квест</p>
+    </div>
+</div>
+<div class="video-preview">
+    <iframe src="https://www.youtube.com/embed/CavNtvZrCT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<script>
+    if (localStorage.getItem('Liza') == "true") {
+        setTimeout(function () {
+        writeMsg("Привіт, " + $(".name-profile").text() + "!" + " Мене звати Ліза, і я допоможу тобі користуватися сайтом. Я тут вже давно і знаю всі закутки. Поглянь, в верхній лівій частині сайту знаходиться меню, звідти ти можеш потрапити на будь-яку сторінку. Можеш йти, я піду з тобою!) Чи ти хочеш переглянути відео, яке знаходиться трішечки нижче?", 3);
+        }, 1000);
+    }
+</script>

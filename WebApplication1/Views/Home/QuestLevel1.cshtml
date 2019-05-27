@@ -1,0 +1,28 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 1";
+}
+@Styles.Render("~/Content/global-new.css")
+@Styles.Render("~/Content/QuestLevel1-replace.css?1")
+<style>
+    .subject{
+        overflow:hidden !important;
+    }
+</style>
+
+<div>Вам представлені предмети, які ви можете вивчати на цій спеціальності. Виберіть, які з них ви би хотіли вивчати, а які - ні</div>
+<div class="wrapper">
+    <div id="good">Хочу</div>
+    <div id="list"></div>
+    <div id="evil">Не хочу</div>
+</div>
+<div class="text-center">
+    <button class="btn btn-success" id="create" onclick="next()">Наступний рівень</button>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRurp_NbOhUErVXxkOmjtomiC2p5clHNw"></script>
+@Scripts.Render("~/Scripts/QuestGlobal.js?1")
+@Scripts.Render("~/Scripts/QuestLevel1.js")

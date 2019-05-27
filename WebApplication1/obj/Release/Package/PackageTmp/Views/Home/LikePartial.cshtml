@@ -1,0 +1,10 @@
+﻿@model WebApplication1.Models.LikeModel
+
+@using (Html.BeginForm(null, null, new { code = Model.Code, f = false }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div>@Model.Count</div>
+    </div>
+}

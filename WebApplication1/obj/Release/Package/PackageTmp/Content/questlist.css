@@ -1,0 +1,33 @@
+.body-content{
+	margin-top: 55px;
+	background: white;
+	border-radius: 5px;
+	min-height: 90vh;
+}
+.quest_list > div{
+	background: url(Images/quests1.jpg);
+	width: calc(100% - 40px);
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 5px 2px #313131;
+	color: white;
+	cursor: pointer;
+	transition: opacity .15s linear;
+}
+.quest_list > div:hover{
+	opacity: .8;
+}
+.quest_list i{
+	float: right;
+	color: red;
+	padding-top: 4px;
+}
+.quest_list a{
+	color: red;
+}
+.quest_list i:hover a{
+	color: black;
+}
+h4{
+	text-align: center;
+}

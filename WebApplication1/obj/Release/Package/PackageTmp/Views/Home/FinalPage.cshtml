@@ -1,0 +1,24 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 1";
+}
+@Styles.Render("~/Content/global-replace.css")
+@Styles.Render("~/Content/finalpage.css")
+
+<h2>Вітаю вас, ви пройшли квест</h2>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+@Scripts.Render("~/Scripts/global.js")
+@Scripts.Render("~/Scripts/FinalPage.js?1")
+
+
+<script>
+    if (localStorage.getItem('Liza') == "true") {
+        var t = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
+        setTimeout(function () {
+            writeMsg("Ой! Ху-у-у... Це... вже... кінець??? Ура! Це було неймовірно! В тебе дуже гарно виходило! Особливо на етапі номер "+t+". Якщо хочеш повторити, обов'язково клич мене, не хочу це пропустити!", 8);
+        }, 250);
+    }
+</script>

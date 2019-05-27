@@ -1,0 +1,26 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 1";
+}
+@Styles.Render("~/Content/global-replace.css")
+@Styles.Render("~/Content/Level1.css")
+
+
+<h4>Створення рівня-гри "Перший крок найважчий"</h4>
+<i>На даному етапі користувач вкаже найважливіші (на його думку) предмети</i>
+
+<div id="quest">
+    <input type="text" id="line-creator" onchange="add(this.id)" placeholder="Додайте предмет...">
+</div>
+
+<div class="text-center">
+    <input type="hidden" id="code" value="@Model.Code" />
+    <button class="btn btn-success" id="create" onclick="createLevel()">Створити рівень</button>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+@Scripts.Render("~/Scripts/global.js")
+@Scripts.Render("~/Scripts/Level1STR.js")
+@Scripts.Render("~/Scripts/Level1-replace.js?2")

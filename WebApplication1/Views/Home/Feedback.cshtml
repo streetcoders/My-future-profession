@@ -1,17 +1,17 @@
 ﻿@model WebApplication1.Models.FeedbackModel
 
 @{
-    ViewBag.Title = "Feedback";
+    ViewBag.Title = "Зворотній зв'язок";
 }
 @Styles.Render("~/Content/feedback.css")
 
 <h2>Feedback</h2>
 
 <div class="feedback-block">
-@using (Html.BeginForm()) 
-{
-    @Html.AntiForgeryToken()
-    
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
             <label for="ModelEmail">Ваша пошта</label>
@@ -30,10 +30,17 @@
         </div>
 
         <div class="form-group">
-             <input type="submit" value="Надіслати" class="btn btn-default" />
+            <input type="submit" value="Надіслати" class="btn btn-default" />
         </div>
-}
-    </div>
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+    }
+</div>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <script>
+        if (localStorage.getItem('Liza') == "true") {
+            setTimeout(function () {
+                writeMsg("Тільки поглянь! Тут можна написати розробникам сайту. Кажуть, що вони навіть можуть тобі відповісти) Що чекаеш? Напишеш їм щось? Тільки я не думаю, що варто писати їм занадто багато листів)", 1);
+            }, 250);
+        }
+    </script>

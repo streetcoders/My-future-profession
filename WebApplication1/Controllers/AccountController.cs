@@ -35,6 +35,7 @@ namespace WebApplication1.Controllers
                 {
                     Session["Name"] = user.Name;
                     Session["hasImage"] = user.HasImage();
+                    Session["IsAdmin"] = user.IsAdmin;
                     FormsAuthentication.SetAuthCookie(model.Email, true);
                     return RedirectToAction("Index", "Home");
                 }
@@ -69,7 +70,7 @@ namespace WebApplication1.Controllers
                     String psswrd = await db.Encrypt(model.Email, model.Password);
 
                     Session["hasImage"] = false;
-
+                    Session["IsAdmin"] = false;
                     Session["Name"] = model.Name;
                     await db.Create(new User { Email = model.Email, Password = psswrd, Name = model.Name, Number = model.Number, DateOfBirth = model.DateOfBirth });
                     if (uploadedFile != null)
@@ -96,15 +97,25 @@ namespace WebApplication1.Controllers
             Session.Abandon();
             return RedirectToAction("Login", "Account");
         }
-        public async Task<ActionResult> GetImage()
+        public async Task<ActionResult> GetImage(string email)
         {
-            User u = await db.GetUserE(User.Identity.Name);
+            User u = await db.GetUserE(email);
             var image = await db.GetImage(u.ImageId);
             if (image == null)
             {
                 return HttpNotFound();
             }
             return File(image, "image/png");
+        }
+        public async Task<bool> HasImage(string email)
+        {
+            User u = await db.GetUserE(email);
+            return u.HasImage();
+        }
+        public async Task<string> GetName(string email)
+        {
+            User u = await db.GetUserE(email);
+            return u.Name;
         }
         public ActionResult EditProfile()
         {

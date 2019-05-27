@@ -1,0 +1,32 @@
+﻿@model WebApplication1.Models.QuestListModel
+
+@{
+    ViewBag.Title = "Список квестів";
+}
+@Styles.Render("~/Content/questlist.css")
+<div class="quest_list">
+    <h4>Список квестів</h4>
+    <hr />
+   
+    @for (int i = 0; i < Model.Quests.Length; i++)
+    {
+        <div onclick='init(@i)'>
+            <input id="quest_@i" type="hidden" value="@Model.Quests[i].QuestText" />
+            Quest@(i + 1)
+            @if (Session["IsAdmin"] != null && (bool)Session["IsAdmin"] == true)
+            {
+                <i class=" material-icons">
+                    @Html.ActionLink("restore_from_trash", "RemoveQuest", new { id = Model.Quests[i].Id, code = Model.Code })
+                </i>
+            }
+        </div>
+    }
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+
+@Scripts.Render("~/Scripts/Start-replace.js?7")
+@Scripts.Render("~/Scripts/QuestGlobal.js?3")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRurp_NbOhUErVXxkOmjtomiC2p5clHNw"></script>

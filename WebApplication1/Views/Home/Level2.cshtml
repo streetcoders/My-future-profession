@@ -1,0 +1,34 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 2";
+}
+@Styles.Render("~/Content/global-replace.css")
+@Styles.Render("~/Content/Level2.css")
+
+<h4>Створення рівня "Кар’єрний ріст"</h4>
+<label for="company">Назва компанії:</label><input type="text" id="company"><br>
+<label for="about">Опис компанії:</label><textarea name="about" id="about" cols="60" rows="5"></textarea><br>
+<label for="logo">Посилання на логотип компанії:</label><input type="text" id="logo">
+<button class="btn btn-primary" onclick="setLogo()">Використати</button><br>
+<i>Позначне на мапі офіси вашої компанії<br>Для того щоб видалили позначку клацніть на неї</i>
+<div id="map"></div>
+
+<h2>Створіть тест для майбутніх працівників</h2>
+<i>Для найкращих результатів використовуйте питання з реальних співбесід</i>
+<div id="quest">
+    <input type="text" id="block-creator" onchange="addQuestion(this.id)" placeholder="Задайте питання...">
+</div>
+
+<div class="text-center">
+    <input type="hidden" id="code" value="@Model.Code" />
+    <button class="btn btn-success" id="create" onclick="createLevel()">Створити рівень</button>
+</div>
+
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRurp_NbOhUErVXxkOmjtomiC2p5clHNw"></script>
+@Scripts.Render("~/Scripts/global.js")
+@Scripts.Render("~/Scripts/Level2STR.js")
+@Scripts.Render("~/Scripts/Level2-rep.js?2")

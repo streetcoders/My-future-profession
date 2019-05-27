@@ -1,0 +1,44 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 1";
+}
+@Styles.Render("~/Content/global-new.css")
+@Styles.Render("~/Content/QuestLevel4-replace.css")
+
+
+<div class="centrize">
+    <div class="info">
+        <div>
+            <p id="score"></p>
+            <p id="hp"></p>
+        </div>
+        <p id="stage"></p>
+    </div>
+    <div class="game"></div>
+    <div class="control">
+        <div class="subControl">
+            <div><input type="checkbox" id="hm" checked> <label for="hm">HARD MODE</label></div>
+            <div><input type="checkbox" id="ga" checked> <label for="ga">SPAWN GOLDEN APPLES</label></div>
+            <div><input type="checkbox" id="an"> <label for="an">ANIMATIONS</label></div>
+            <div><input type="range" min="0" max="100" step="1" value="80" id="gAfreq"><label for="gAfreq" id="freq">80</label></div>
+        </div>
+
+    </div>
+    <div class="text-center">
+        <button class="btn btn-success" id="create" onclick="next()">Наступний рівень</button>
+    </div>
+
+</div>
+<div class="final hidden">
+    <p></p>
+    <div>
+        <input type="button" id="repeat" value="Почати знову">
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRurp_NbOhUErVXxkOmjtomiC2p5clHNw"></script>
+@Scripts.Render("~/Scripts/QuestGlobal.js")
+@Scripts.Render("~/Scripts/QuestLevel4-replace.js")

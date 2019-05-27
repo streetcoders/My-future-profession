@@ -1,0 +1,23 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 1";
+}
+@Styles.Render("~/Content/global-new.css")
+@Styles.Render("~/Content/QuestLevel3-replace.css")
+
+
+<div>А теперь доберіться до приміщення компанії!</div>
+<div class="wrapper">
+    <div id="map"></div>
+</div>
+
+<div class="text-center">
+    <button class="btn btn-warning" id="create" onclick="next()">Пропустити</button>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRurp_NbOhUErVXxkOmjtomiC2p5clHNw"></script>
+@Scripts.Render("~/Scripts/QuestGlobal.js")
+@Scripts.Render("~/Scripts/QuestLevel3.js")

@@ -19,8 +19,8 @@
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
@@ -194,6 +194,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Models.cs" />
     <Compile Include="Models\Speciality.cs" />
     <Compile Include="Models\SpecialityContext.cs" />
@@ -315,15 +316,69 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\chatroom-replace.css" />
     <Content Include="Content\chatroom.css" />
+    <Content Include="Content\comments-replace-style.css" />
+    <Content Include="Content\comments-replace.css" />
+    <Content Include="Content\comments.css" />
     <Content Include="Content\feedback.css" />
+    <Content Include="Content\GeneralConstructor-replace.css" />
+    <Content Include="Content\GeneralConstructor.css" />
+    <Content Include="Content\girl-style-replace.css" />
+    <Content Include="Content\girl-style-site.css" />
+    <Content Include="Content\girl-style.css" />
+    <Content Include="Content\global-new-site.css" />
+    <Content Include="Content\global-new.css" />
+    <Content Include="Content\global-replace.css" />
+    <Content Include="Content\global.css" />
     <Content Include="Content\Images\background3.jpg" />
+    <Content Include="Content\Images\chat.png" />
+    <Content Include="Content\Images\facebook.png" />
+    <Content Include="Content\Images\girl_1.png" />
+    <Content Include="Content\Images\girl_2.png" />
+    <Content Include="Content\Images\girl_3.png" />
+    <Content Include="Content\Images\girl_4.png" />
+    <Content Include="Content\Images\girl_5.png" />
+    <Content Include="Content\Images\girl_6.png" />
+    <Content Include="Content\Images\girl_7.png" />
+    <Content Include="Content\Images\girl_8.png" />
     <Content Include="Content\Images\maxresdefault.jpg" />
+    <Content Include="Content\Images\quest.png" />
+    <Content Include="Content\Images\quests1.jpg" />
+    <Content Include="Content\Images\quests2.png" />
+    <Content Include="Content\Images\search.jpg" />
+    <Content Include="Content\Images\settings.png" />
+    <Content Include="Content\Images\telegram.png" />
+    <Content Include="Content\Images\telephone.jpg" />
+    <Content Include="Content\Images\twitter.png" />
     <Content Include="Content\Images\user_anonim.png" />
+    <Content Include="Content\Images\viber.png" />
+    <Content Include="Content\index-style-replace.css" />
     <Content Include="Content\index-style.css" />
+    <Content Include="Content\Level1.css" />
+    <Content Include="Content\Level2.css" />
+    <Content Include="Content\Level3.css" />
+    <Content Include="Content\Level4.css" />
     <Content Include="Content\log-n-reg.css" />
+    <Content Include="Content\menu-replace.css" />
     <Content Include="Content\menu-style.css" />
     <Content Include="Content\menu.css" />
+    <Content Include="Content\profile-replace.css" />
     <Content Include="Content\profile.css" />
+    <Content Include="Content\QuestLevel1-replace.css" />
+    <Content Include="Content\QuestLevel1.css" />
+    <Content Include="Content\QuestLevel2-replace.css" />
+    <Content Include="Content\QuestLevel2.css" />
+    <Content Include="Content\QuestLevel3-replace.css" />
+    <Content Include="Content\QuestLevel3.css" />
+    <Content Include="Content\QuestLevel4-replace.css" />
+    <Content Include="Content\QuestLevel4.css" />
+    <Content Include="Content\questlist.css" />
+    <Content Include="Content\sharing-site.css" />
+    <Content Include="Content\sharing.css" />
+    <Content Include="Content\SpecialityList-replace.css" />
+    <Content Include="Content\SpecialityList.css" />
+    <Content Include="Content\specialty-new.css" />
+    <Content Include="Content\specialty-replace.css" />
+    <Content Include="Content\Start.css" />
     <Content Include="Content\StreetCodersLogo.css" />
     <Content Include="Content\specialty.css" />
     <Content Include="favicon.ico" />
@@ -348,25 +403,65 @@
     <Content Include="bin\roslyn\vbc.rsp" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="bin\WebApplication1.dll.config" />
+    <None Include="Properties\PublishProfiles\my-future-profession - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\my-future-profession - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\my-future-profession - Web Deploy2.pubxml" />
+    <None Include="Properties\PublishProfiles\my-future-profession - Web Deploy3.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\CntrAddSpec-replace.js" />
     <Content Include="Scripts\CntrAddSpec.js" />
+    <Content Include="Scripts\FinalPage.js" />
+    <Content Include="Scripts\GeneralConstructor-replace2.js" />
+    <Content Include="Scripts\GeneralConstructor-replace1.js" />
+    <Content Include="Scripts\GeneralConstructor-replace.js" />
+    <Content Include="Scripts\GeneralConstructor.js" />
+    <Content Include="Scripts\girl.js" />
+    <Content Include="Scripts\global.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\Jquery.js" />
     <Content Include="Scripts\jquery.signalR-2.2.2.js" />
     <Content Include="Scripts\jquery.signalR-2.2.2.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Level1-replace.js" />
+    <Content Include="Scripts\Level1.js" />
+    <Content Include="Scripts\Level1STR.js" />
+    <Content Include="Scripts\Level2-rep.js" />
+    <Content Include="Scripts\Level2.js" />
+    <Content Include="Scripts\Level2STR.js" />
+    <Content Include="Scripts\Level3-replace.js" />
+    <Content Include="Scripts\Level3.js" />
+    <Content Include="Scripts\Level4-replace.js" />
+    <Content Include="Scripts\Level4.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\profile-new.js" />
+    <Content Include="Scripts\profile-replace.js" />
+    <Content Include="Scripts\profile.js" />
+    <Content Include="Scripts\QuestGlobal.js" />
+    <Content Include="Scripts\QuestLevel1.js" />
+    <Content Include="Scripts\QuestLevel2-replace.js" />
+    <Content Include="Scripts\QuestLevel2.js" />
+    <Content Include="Scripts\QuestLevel3.js" />
+    <Content Include="Scripts\QuestLevel4-replace.js" />
+    <Content Include="Scripts\QuestLevel4.js" />
     <Content Include="Scripts\script.js" />
     <Content Include="Scripts\script_new.js" />
+    <Content Include="Scripts\SearchSpeciality-replace.js" />
+    <Content Include="Scripts\SearchSpeciality.js" />
+    <Content Include="Scripts\Start-replace.js" />
+    <Content Include="Scripts\Start.js" />
     <Content Include="Scripts\StreetCodersLogo.js" />
+    <Content Include="Scripts\util-replace.js" />
+    <Content Include="Scripts\util-replace1.js" />
     <Content Include="Scripts\util.js" />
+    <Content Include="Scripts\youtubeValidator-replace.js" />
+    <Content Include="Scripts\youtubeValidator.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -389,6 +484,22 @@
     <Content Include="Views\Home\Feedback.cshtml" />
     <Content Include="Views\Home\Speciality.cshtml" />
     <Content Include="Views\Home\AddSpeciality.cshtml" />
+    <Content Include="Views\Home\ShowSpeciality.cshtml" />
+    <Content Include="Views\Home\SpecialityList.cshtml" />
+    <Content Include="Views\Home\EditSpeciality.cshtml" />
+    <Content Include="Views\Home\GeneralConstructor.cshtml" />
+    <Content Include="Views\Home\Level1.cshtml" />
+    <Content Include="Views\Home\Level2.cshtml" />
+    <Content Include="Views\Home\Level3.cshtml" />
+    <Content Include="Views\Home\Level4.cshtml" />
+    <Content Include="Views\Home\QuestList.cshtml" />
+    <Content Include="Views\Home\StartQuest.cshtml" />
+    <Content Include="Views\Home\QuestLevel1.cshtml" />
+    <Content Include="Views\Home\QuestLevel2.cshtml" />
+    <Content Include="Views\Home\QuestLevel3.cshtml" />
+    <Content Include="Views\Home\QuestLevel4.cshtml" />
+    <Content Include="Views\Home\FinalPage.cshtml" />
+    <Content Include="Views\Home\LikePartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -424,7 +535,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49287</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49287/</IISUrl>
+          <IISUrl>http://localhost:1052/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:1052/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

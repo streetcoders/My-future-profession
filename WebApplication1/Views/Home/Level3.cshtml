@@ -1,0 +1,33 @@
+﻿@model WebApplication1.Models.CreateQuestModel
+@{
+    ViewBag.Title = "Етап 3";
+}
+@Styles.Render("~/Content/global-replace.css")
+@Styles.Render("~/Content/Level3.css")
+
+
+<h4>Створення рівня-гри "Лабіринт"</h4>
+<div class="wrapper">
+    <label for="select">Розмір поля:</label>
+    <select id="select" onchange="setSize()">
+        <option value="10x15">10x15</option>
+        <option value="12x15">12x15</option>
+        <option value="20x30">20x30</option>
+        <option value="30x50">30x50</option>
+        <option value="70x100">70x100</option>
+    </select><br>
+    <div id="field">
+
+    </div>
+
+    <div class="text-center">
+        <input type="hidden" id="code"value="@Model.Code" />
+        <button class="btn btn-success" id="create" onclick="createLevel()">Створити рівень</button>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+@Scripts.Render("~/Scripts/global.js")
+@Scripts.Render("~/Scripts/Level3-replace.js?1")

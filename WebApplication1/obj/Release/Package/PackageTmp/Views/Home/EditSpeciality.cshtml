@@ -1,0 +1,95 @@
+﻿@model WebApplication1.Models.EditSpecialityModel
+
+@{
+    ViewBag.Title = "Редагування спеціальності";
+}
+
+@Styles.Render("~/Content/AddSpeciality-replace.css")
+
+@using (Html.BeginForm(null, null,new { code = Model.Code }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Редагування спеціальності</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+<div class="form-group">
+    <label for="Name">Код спеціальності</label>
+    <div>
+        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="Name">Назва спеціальності</label>
+    <div>
+        @Html.EditorFor(model => model.Introduction, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Introduction, "", new { @class = "text-danger" })
+    </div>
+</div>
+    <div class="form-group">
+        <label for="Subjects_0_">Основні дисципліни</label>
+        <div class="dysc">
+            @for (int i = 0; i < Model.Subjects.Length; i++)
+            {
+                <div>
+                    <input type="text" id="Subjects_[@i]_" name="Subjects[@i]" class="form-control" value="@Model.Subjects[i]">
+                    <i class="material-icons">restore_from_trash</i>
+                    @Html.ValidationMessageFor(model => model.Subjects[0], "", new { @class = "text-danger" })
+                </div>}
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Jobs_0_">Основні посади</label>
+        <div class="professions-spec">
+            @for (int i = 0; i < Model.Jobs.Length; i++)
+            {
+            <div>
+                <input type="text" id="Jobs_[@i]_" name="Jobs[@i]" class="form-control" value="@Model.Jobs[i]">
+                <i class="material-icons">restore_from_trash</i>
+                @Html.ValidationMessageFor(model => model.Jobs[0], "", new { @class = "text-danger" })
+            </div>}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Name">Основна інформація</label>
+        <div>
+            @Html.EditorFor(model => model.Content, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Name">Посилання на відео</label>
+        <div>
+            @Html.EditorFor(model => model.Link, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Link, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="uploadedFile">Шапка сайту</label>
+        <div>
+            <div>
+                <input type="file" name="uploadedFile" id="uploadedFile" />
+            </div>
+            @Html.ValidationMessageFor(model => model.ImageId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+            <input type="submit" value="Зберегти" class="btn btn-default" />
+    </div>
+</div>
+}
+
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/Scripts/CntrAddSpec-replace.js")
+
+
+
+

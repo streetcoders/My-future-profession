@@ -1,0 +1,45 @@
+body {
+    margin: 0 10px;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#good {
+    border: #007A1E 3px solid;
+    width: 35%;
+    text-align: center;
+    color: #007A1E;
+}
+
+#list {
+    border: gray 3px solid;
+    width: 30%;
+    min-width: 200px;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#evil {
+    border: #B20000 3px solid;
+    width: 35%;
+    text-align: center;
+    color: #B20000;
+}
+
+.subject {
+    min-width: 150px;
+    margin-top: 10px;
+}
+
+.btn-grey {
+    background: lightgray;
+}

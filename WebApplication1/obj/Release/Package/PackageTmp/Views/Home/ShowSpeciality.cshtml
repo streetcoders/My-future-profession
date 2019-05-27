@@ -1,0 +1,115 @@
+﻿@model WebApplication1.Models.ShowSpecialityModel
+
+@{
+    ViewBag.Title = "Спеціальність " + Model.Name;
+}
+
+@Styles.Render("~/Content/specialty.css")
+@Styles.Render("~/Content/comments-replace-style.css")
+
+
+<div class="preview-specialty">
+    @if ((Session["IsAdmin"] != null && (bool)Session["IsAdmin"] == true))
+    {
+        <div id="create_quest" onclick="location.href = '/Home/GeneralConstructor?code='+@Model.Code">Розробити квест</div>
+    }
+    <div class="picture">
+        <img src="@Url.Action("GetImage", "Home",new { code = Model.Code })" alt="specialty" />
+    </div>
+    <div class="block_likes" style="position:relative;background: white;width:26px;display:flex;">
+        <img onclick="location.href='/Home/Like?code=@Model.Code'" src="https://img.icons8.com/color/26/000000/filled-like.png" alt="like" style="cursor:pointer;">
+        <div style="text-align:center;" class="like">@Html.Action("LikePartial", new { code = Model.Code })</div>
+    </div>
+    <div class="header-info">
+        <p>@Model.Introduction</p>
+    </div>
+    <div class="main-act">
+        @if (Model.Subjects != null)
+        {
+            <div class="main-dysc">
+                <h3>Основні дисципліни</h3>
+                <ul>
+                    @foreach (var temp in Model.Subjects)
+                    {
+                        <li>@temp</li>}
+                </ul>
+            </div>}
+        @if (Model.Jobs != null)
+        {
+            <div class="professions">
+                <p><strong>Основні посади</strong></p>
+                <ul>
+                    @foreach (var temp in Model.Jobs)
+                    {
+                        <li>@temp</li>}
+                </ul>
+            </div>}
+    </div>
+    <div class="footer-info">
+        <h3>Чому потрібно здобувати фах @Model.Name</h3>
+        <p>
+            @Model.Content
+        </p>
+    </div>
+    <div class="video-container">
+        <iframe src="@Model.Link" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <div class="quests_block" onclick="location.href='QuestList?code=@Model.Code'"><img src="~/Content/Images/quests1.jpg" alt="quests" /><div></div></div>
+
+    @using (Html.BeginForm("SendComment", "Home", new { code = Model.Code }))
+    {
+        <div class="chat-room-block">
+            <h4>Коментарі</h4>
+            <div class="chat-control">
+
+                @Html.EditorFor(model => model.NewComment, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NewComment, "", new { @class = "text-danger" })
+                <input type="hidden" name="code" value="@Model.Code" />
+                <input type="submit" value="Залишити відгук" class="btn btn-default" />
+            </div>
+
+            @if (Model.Comments != null)
+            {
+                <div class="chat-logs">
+                    @foreach (var item in Model.Comments)
+                    {
+                        <div>
+                            @if (item.HasImage)
+                            {
+                                <img src="@Url.Action("GetImage", "Account", new { email = item.AuthorsEmail })" alt="userPhoto" />
+                            }
+                            else
+                            {
+                                <img src="~/Content/Images/user_anonim.png" alt="userPhoto" />
+                            }
+                            @item.Name
+                            <div>
+                                <span>
+                                   @if (item.AuthorsEmail == User.Identity.Name || (Session["IsAdmin"] != null && (bool)Session["IsAdmin"] == true))
+                                    {<i class=" material-icons">@Html.ActionLink("restore_from_trash", "RemoveComment", new { id = item.Id, code = item.Code })</i>}
+                                </span>@item.Date
+                            </div>
+                            <p>
+                                @item.Text
+                            </p>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/Scripts/youtubeValidator-replace.js")
+
+
+<script>
+    if (localStorage.getItem('Liza') == "true") {
+        setTimeout(function () {
+            writeMsg("Невже це та спеціальність, яку ти хочеш обрати? Мені подобається) Поглянь, що це там знизу? Квест? День стає все цікавішим!!!", 2);
+        }, 250);
+    }
+</script>
