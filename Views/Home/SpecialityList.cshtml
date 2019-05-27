@@ -1,0 +1,44 @@
+﻿@model WebApplication1.Models.SpecialityListModel
+
+@{
+    ViewBag.Title = "SpecialityList";
+}
+
+<h2>SpecialityList</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>SpecialityListModel</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <table class="table">
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th></th>
+        </tr>
+
+        @foreach (var temp in Model.Specialities)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => temp.Code)</td>
+                <td>
+                    @Html.ActionLink(@temp.Name, "ShowSpeciality", new { code=temp.Code })
+                </td>
+            </tr>
+        }
+    </table>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

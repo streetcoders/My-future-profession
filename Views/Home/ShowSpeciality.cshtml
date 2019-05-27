@@ -1,0 +1,47 @@
+﻿@model WebApplication1.Models.ShowSpecialityModel
+
+@{
+    ViewBag.Title = "ShowSpeciality";
+}
+
+@Styles.Render("~/Content/specialty.css")
+
+
+<div class="cntr-specialty">
+
+</div>
+<div class="preview-specialty">
+    <div class="picture">
+        <img src="@Url.Action("GetImage", "Home",new { code = Model.Code })" alt="specialty" />
+    </div>
+    <div class="header-info">
+        <p>@Model.Introduction</p>
+    </div>
+    <div class="main-act">
+        @if (Model.Subjects != null)
+        {
+        <div class="main-dysc">
+            <h3>Основні дисципліни</h3>
+            <ul>
+                @foreach (var temp in Model.Subjects)
+                {
+                    <li>@temp</li>}
+                </ul>
+        </div>}
+        @if (Model.Jobs != null)
+        {
+        <div class="professions">
+            <p><strong>Основні посади</strong></p>
+            <ul>
+                @foreach (var temp in Model.Jobs)
+                {
+                <li>@temp</li>}
+            </ul>
+        </div>}
+    </div>
+    <div class="footer-info">
+        <h3>Чому потрібно здобувати фах @Model.Name - спеціаліста?</h3>
+        <p>@Model.Content
+            </p>
+    </div>
+</div>
